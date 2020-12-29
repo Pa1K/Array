@@ -1,0 +1,26 @@
+1. How do you find the missing number in a given integer array of 1 to 100? 
+elements can be repeated or can't, does array holds duplicates - yes
+array size tells no.of elements.
+
+case 1:
+
+
+array - 2,3,5,100
+find 1,
+linear search 
+In this, the list or array is traversed sequentially and every element is checked.
+
+binary search
+search a sorted array by repeatedly dividing the search interval in half
+sort the array
+sort() method is a java.util.Arrays class method. 
+Arrays.binarySearch() is the simplest and most efficient method to find an element in a sorted array in Java
+
+Using List.contains() Method: 
+List contains() method in Java is used for checking if the specified element exists in the given list or not.
+Arrays.asList(arr).contains(toCheckValue); 
+
+
+
+Ref:
+https://hackernoon.com/50-data-structure-and-algorithms-interview-questions-for-programmers-b4b1ac61f5b0
